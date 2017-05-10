@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>JOB Card</title>
+	
+	<style type="text/css">
+		body{
+			margin: 20px;
+		}
+		.jumbotron.welcome{
+			padding: 25px !important;
+			padding: 25px !important;
+			/*border-radius: 0 !important;*/
+		}
+		.jumbotron.blank{
+			background: transparent;
+			border: 1px solid #ccc;
+			padding: 25px !important;
+			padding: 25px !important;
+			/*border-radius: 0 !important;*/
+		}
+		.jumbotron.blank>.title{
+			height: 30px;
+			background: #eee;
+			border-bottom: 1px solid #ccc;
+			margin: -25px;
+			padding-top: 5px;
+			border-radius: 5px !important;
+			border-bottom-right-radius: 0 !important;
+			border-bottom-left-radius: 0 !important	;
+			font-size: 16px;
+		}
+		.jumbotron.blank>.title>.caption{
+		}
+		.jumbotron.blank>.body{
+			padding-top: 30px;
+		}
+		div.data{
+			display: block;
+		}
+		div.data>div{
+			display: flex;
+			padding-top: 5px;
+		}
+		div.data>div>div{
+			width:50%;
+			display: inline-block;
+		}
+		.main-jobs{
+			border: 1px solid #ccc;
+			margin-top:15px;
+		}
+		.main-jobs div.item:not(:last-child){
+			border-bottom: 1px solid #ccc;
+		}
+		.main-jobs div.item:nth-child(even){
+			background: #99ccff;
+			color:#fff;
+		}
+		.main-jobs .item{
+			display: flex;
+			padding: 10px;
+			/*margin: 10px;*/
+		}
+		.main-jobs .item>.left{
+			width:70%;
+		}
+		.main-jobs .item>.right{
+			width:30%;
+			text-align: right;
+			    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+		}
+		.main-jobs .item>.right>div{
+			display: inline-block;
+		}
+
+
+    .sub-jobs{
+			border: 1px solid #ccc;
+			margin-top:15px;
+		}
+		.sub-jobs div.item:not(:last-child){
+			border-bottom: 1px solid #ccc;
+		}
+		.sub-jobs .item{
+			display: flex;
+			margin: 10px;
+		}
+		.sub-jobs .item>.left{
+			width:70%;
+		}
+		.sub-jobs .item>.right{
+			width:30%;
+			text-align: right;
+			    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+		}
+		.sub-jobs .item>.right>div{
+			display: inline-block;
+		}
+
+	</style>
+</head>
+  <body>
+<div class="container">
+	<div class="row">
+		<div class="navbar-header"> <button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle" data-target="#bs-navbar" data-toggle="collapse" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="" class="navbar-brand">Automotive Service</a> </div>
+	</div>
+
+  <div class="row">
+    <div id="job_list" class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+    </div>
+  </div>
+</div>
+    
+  <script src="/public/bundle.js">
+
+  
+
+  </script>
+
+  </body>
+</html>

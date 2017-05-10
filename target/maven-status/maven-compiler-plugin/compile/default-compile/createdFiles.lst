@@ -1,0 +1,7 @@
+com\infineit\aws\RepositoryConfig.class
+com\infineit\aws\JobRepository.class
+com\infineit\aws\JobController.class
+com\infineit\aws\DatabaseLoader.class
+com\infineit\aws\InfineitawsApplication.class
+com\infineit\aws\Job.class
+com\infineit\aws\SubJob.class
